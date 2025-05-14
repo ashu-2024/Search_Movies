@@ -14,4 +14,3 @@ A simple web application to search for movies using the OMDB API.
 - CSS3
 - JavaScript
 - OMDB API
-- 

@@ -1,6 +1,5 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +9,6 @@
 </head>
 
 <body>
-    <!-- <header>
-    <h1 class="heading">Search Movies</h1>
-    </header> -->
     <div class="container">
         <div class="head">
             <h1 class="heading">SearchMovies.in</h1>
@@ -24,6 +20,43 @@
         </div>
     </div>
     <script src="./script2.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Search Movies</title>
+  <link rel="stylesheet" href="style2.css" />
+  <link rel="icon" href="favicon.png" type="image/png" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="head">
+      <h1 class="heading">SearchMovies.in</h1>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input 
+        type="text" 
+        id="input" 
+        placeholder="Search Movies" 
+        autocomplete="off" 
+        aria-label="Search Movies" 
+      />
+      <button type="submit" class="search" id="btn">Search</button>
+    </div>
+
+    <!-- Display Results -->
+    <div id="display"></div>
+  </div>
+
+  <script src="./script2.js"></script>
 </body>
 
 </html>
